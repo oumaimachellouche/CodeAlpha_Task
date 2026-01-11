@@ -1,0 +1,89 @@
+Line Follower and Obstacle Avoiding Robot (Arduino – Wokwi Simulation)
+
+📖 Description
+
+This project is an Arduino-based robot that combines line following and obstacle avoidance behaviors.
+The robot follows a black line using IR sensors and automatically avoids obstacles using an ultrasonic sensor.
+The entire circuit and logic were simulated using Wokwi.
+
+⚙️ Features
+
+Line following using IR sensors
+
+Obstacle detection using ultrasonic sensor
+
+LCD display (optional, if you used it)
+
+Fully simulated in Wokwi
+
+🧰 Components Used
+
+Arduino Mega
+
+IR Line Tracking Sensors
+
+Ultrasonic Sensor (HC-SR04)
+
+Buzzer (Active)
+
+LCD 16x2 with I2C (if used)
+
+Jumper Wires
+
+🔌 Circuit
+
+The circuit was built and tested using Wokwi Online Simulator.
+
+🧠 How It Works
+
+IR sensors detect the line and guide the robot movement.
+
+The ultrasonic sensor continuously measures distance.
+
+When an obstacle is detected:
+
+The robot stops 
+
+💻 Code
+
+Written in Arduino 
+
+Well-commented for learning purposes
+
+Designed for beginners in robotics and embedded systems
+
+▶️ Simulation
+
+You can run and test this project using Wokwi.
+
+wookwi link:https://wokwi.com/projects/433291671587351553
+
+🚀 Future Improvements
+
+PID control for smoother line following
+
+Bluetooth / WiFi control
+
+Real hardware implementation
+
+Camera-based line detection
+
+📚 Learning Purpose
+
+This project was created for school purposes to practice:
+
+Arduino programming
+
+Sensors integration
+
+Embedded systems logic
+
+Robotics fundamentals
+
+🧑‍💻 Author
+
+chellouche oumaima
+
+📄 License
+
+This project is open-source and free to use for learning and educational purposes.
